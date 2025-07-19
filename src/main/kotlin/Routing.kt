@@ -43,6 +43,12 @@ fun Application.configureRouting() {
                     name = "ahmed",
                     age = 120,
                     city = "kkk",
+                ),
+                User(
+                    id = 4,
+                    name = "anuelnaga",
+                    age = 120,
+                    city = "kkkkk",
                 )
             )
             call.respond(users)
